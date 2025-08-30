@@ -20,9 +20,16 @@
   color: #00ff99;
   text-shadow: 0 0 4px #00ff99;
 }
+.inputRow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
 .input {
   width: 100%;
-  margin: 1rem 0;
+  max-width: 150px;
+  margin: 0.5rem;
   background: #181818;
   color: #33ff33;
   border: 1px solid #00ff99;
