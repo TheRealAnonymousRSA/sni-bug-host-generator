@@ -1,0 +1,64 @@
+.container {
+  min-height: 100vh;
+  padding: 0;
+  background: #101010;
+  color: #33ff33;
+  font-family: 'Fira Mono', 'Consolas', monospace;
+}
+.main {
+  max-width: 600px;
+  margin: 4rem auto;
+  background: #181818;
+  border-radius: 8px;
+  box-shadow: 0 0 12px #00ff99;
+  padding: 2rem;
+}
+.title {
+  font-size: 2rem;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #00ff99;
+  text-shadow: 0 0 4px #00ff99;
+}
+.input {
+  width: 100%;
+  margin: 1rem 0;
+  background: #181818;
+  color: #33ff33;
+  border: 1px solid #00ff99;
+  border-radius: 4px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+}
+.button {
+  background: #222;
+  color: #33ff33;
+  border: 1px solid #00ff99;
+  border-radius: 4px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.button:hover {
+  background: #00ff99;
+  color: #101010;
+}
+.output {
+  background: #101010;
+  border: 1px solid #00ff99;
+  border-radius: 4px;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  min-height: 100px;
+  white-space: pre-line;
+}
+.footer {
+  text-align: center;
+  color: #444;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
